@@ -1,0 +1,12 @@
+Source: ros-indigo-barrett-hand-gazebo
+Section: misc
+Priority: extra
+Maintainer: elena <egambaro@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-barrett-hand-description, ros-indigo-catkin, ros-indigo-gazebo-ros, ros-indigo-roscpp
+Homepage: http://wiki.ros.org/barrett_sim_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-barrett-hand-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-barrett-hand-description, ros-indigo-gazebo-ros, ros-indigo-roscpp
+Description: The barrett_hand_gazebo package

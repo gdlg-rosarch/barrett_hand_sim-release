@@ -1,0 +1,8 @@
+ros-indigo-barrett-hand-gazebo (0.1.0-0trusty) trusty; urgency=high
+
+  * Add Barrett Hand gazebo and Barrett Hand control packages
+  * Contributors: Elena Gambaro
+
+ -- elena <egambaro@robotnik.es>  Mon, 27 Jul 2015 22:00:00 -0000
+
+
