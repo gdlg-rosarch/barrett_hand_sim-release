@@ -1,0 +1,12 @@
+Source: ros-indigo-barrett-hand-sim
+Section: misc
+Priority: extra
+Maintainer: Román Navarro <rnavarro@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/barrett_hand_sim
+Standards-Version: 3.9.2
+
+Package: ros-indigo-barrett-hand-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-barrett-hand-control, ros-indigo-barrett-hand-gazebo
+Description: The barrett_hand_sim package
