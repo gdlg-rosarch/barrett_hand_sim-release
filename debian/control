@@ -1,0 +1,12 @@
+Source: ros-kinetic-barrett-hand-gazebo
+Section: misc
+Priority: extra
+Maintainer: elena <egambaro@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-barrett-hand-description, ros-kinetic-catkin, ros-kinetic-gazebo-ros, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/barrett_sim_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-barrett-hand-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-barrett-hand-description, ros-kinetic-gazebo-ros, ros-kinetic-roscpp
+Description: The barrett_hand_gazebo package
