@@ -4,8 +4,11 @@ project(barrett_hand_gazebo)
 # Load catkin and all dependencies required for this package
 find_package(catkin REQUIRED COMPONENTS 
   roscpp 
-  gazebo_ros 
+  gazebo_ros
+  
 )
+
+add_definitions(-std=c++11)
 
 find_package(Boost REQUIRED COMPONENTS system)
 include_directories(${Boost_INCLUDE_DIRS})
@@ -23,7 +26,7 @@ target_link_libraries(gazebo_mimic_plugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES
 catkin_package(
   DEPENDS 
     roscpp 
-    gazebo_ros 
+   gazebo_ros
 )
 
 install(DIRECTORY launch
@@ -37,5 +40,7 @@ install(DIRECTORY include
 
 install(
   TARGETS gazebo_mimic_plugin
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
