@@ -1,0 +1,15 @@
+ros-kinetic-barrett-hand-sim (0.1.2-0wily) wily; urgency=high
+
+
+
+ -- Román Navarro <rnavarro@robotnik.es>  Tue, 09 Aug 2016 22:00:00 -0000
+
+ros-kinetic-barrett-hand-sim (0.1.1-0wily) wily; urgency=high
+
+  * Adding changelog files
+  * Adding metapackage folder
+  * Contributors: RomanRobotnik
+
+ -- Román Navarro <rnavarro@robotnik.es>  Mon, 08 Aug 2016 22:00:00 -0000
+
+

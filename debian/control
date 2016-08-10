@@ -1,0 +1,12 @@
+Source: ros-kinetic-barrett-hand-sim
+Section: misc
+Priority: extra
+Maintainer: Román Navarro <rnavarro@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/barrett_hand_sim
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-barrett-hand-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-barrett-hand-control, ros-kinetic-barrett-hand-gazebo
+Description: The barrett_hand_sim package
